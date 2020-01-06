@@ -62,7 +62,7 @@
     "prettier": "^1.9.2"
   },
   "dependencies": {
-    "broccoli-react": "^0.8.0",
+    "broccoli-react": "github:tallarium/broccoli-react#upgrade-broccoli-dep",
     "ember-auto-import": "^1.0.1",
     "ember-cli-babel": "^6.3.0",
     "react": "^15.5.4 || ^16.0.0",
