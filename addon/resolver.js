@@ -23,7 +23,7 @@ export default Resolver.extend({
 
     // If there is an Ember component found, return it.
     // This includes the `react-component` Ember component.
-    if (get(result, 'isComponentFactory') || result.prototype instanceof GlimmerComponent) {
+    if (get(result, 'isComponentFactory') || result.prototype instanceof GlimmerComponent || result.toString() === '@ember/component/template-only') {
       return result;
     } else {
       // This enables using React Components directly in template
